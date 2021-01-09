@@ -1,0 +1,22 @@
+
+
+<h1>Undevoured</h1>
+<ul>
+  {{#each burgers}}
+     {{#unless devoured}}
+        <li>{{burger_name}} <button>Devour</button></li>
+      {{/unless}}
+  {{/each}}
+
+</ul>
+
+
+<h1>Devoured</h1>
+<ul>
+  {{#each burgers}}
+     {{#if devoured}}
+        <li>{{burger_name}} </li>
+      {{/if}}
+  {{/each}}
+
+</ul>
