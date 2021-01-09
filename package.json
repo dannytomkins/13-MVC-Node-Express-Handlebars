@@ -1,0 +1,21 @@
+{
+  "name": "13-MVC-Node-Express-Handlebars",
+  "version": "1.0.0",
+  "description": "13 MVC Node Express Handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceynice/13-MVC-Node-Express-Handlebars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niceynice/13-MVC-Node-Express-Handlebars/issues"
+  },
+  "homepage": "https://github.com/niceynice/13-MVC-Node-Express-Handlebars#readme"
+}
