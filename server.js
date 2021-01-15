@@ -7,7 +7,7 @@ var app = express()
 
 app.use(express.static("public"))
 
-
+//parse as JSON
 app.use(express.urlencoded({
     extended:true
 }))

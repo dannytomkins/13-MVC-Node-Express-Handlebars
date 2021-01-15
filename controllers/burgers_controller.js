@@ -1,3 +1,4 @@
+const burgers_orm = require("../config/orm")
 const burgers_model = require("../models/burger")
 
 const router = require("express").Router()
@@ -10,6 +11,6 @@ router.get("/", function(req, res){
 })
 
 
-//router.post("/api/burgers")
+
 
 module.exports = router
